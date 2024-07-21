@@ -1,0 +1,70 @@
+div[class *="col-"] {
+    float: left;
+    min-height: 30px;
+    /* background-color: #000; */
+    padding: 0 15px;
+}
+.clear::before{
+    content: " ";
+    display: table;
+}
+.clear::after{
+    clear: both;
+}
+.row {
+    margin: 0 -15px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: auto    ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.col-1{
+    width:8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width:24.99%;
+}
+.col-4{
+    width: 33.32%;
+}
+.col-5{
+    width:41.65%;
+}
+.col-6{
+    width: 49.98%;
+}
+.col-7{
+    width:58.31%;
+}
+.col-8{
+    width: 66.64%;
+}
+.col-9{
+    width:74.97%;
+}
+.col-10{
+    width: 83.3%;
+}
+.col-11{
+    width:91.63%;
+}
+.col-12{
+    width: 100%;
+}
